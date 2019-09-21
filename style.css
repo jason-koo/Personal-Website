@@ -41,6 +41,16 @@ main {
 	color: #303F9F;
 }
 
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	background: #FAFAFA;
+	color: #303F9F;
+	font-family: 'Reem Kufi', sans-serif;
+}
+
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
@@ -65,5 +75,19 @@ main > .tagline {
 	fill: #303F9F;
 }
 
+.nav_links {
+	list-style: none;
+}
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
 
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color:#303F9F
+}
 
